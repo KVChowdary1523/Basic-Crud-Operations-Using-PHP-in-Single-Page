@@ -3,7 +3,7 @@
 function operations_modal($i)
 {
     $alpha_key = '';
-    $keys = range('a', 'z');
+    $keys = range('A', 'Z');
     for ($j = 0; $j < $i; $j++) {
         $alpha_key .= $keys[array_rand($keys)];
     }
